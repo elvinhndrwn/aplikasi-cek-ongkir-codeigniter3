@@ -17,7 +17,7 @@ class Page extends CI_Controller {
 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 			CURLOPT_CUSTOMREQUEST => "GET",
 			CURLOPT_HTTPHEADER => array(
-				"key: d7f6e775e1215786f332ce813f540a1e"
+				"key: isikan dengan API KEY Anda"
 			),
 		));
 
@@ -27,10 +27,6 @@ class Page extends CI_Controller {
 		curl_close($curl);
 
 		$data['prov'] = json_decode($response, true);
-
-		// for ($i=0; $i < count($data['rajaongkir']['results']); $i++) { 
-		// 	echo "<option>".$data['rajaongkir']['results'][$i]['province']."</option>";
-		// }
 
 		$this->load->view('v_main', $data);
 	}
