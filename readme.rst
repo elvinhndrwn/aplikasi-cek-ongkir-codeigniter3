@@ -11,7 +11,7 @@ Cara Penggunaan Aplikasi :
 3. Sesuaikan base_url nya yang terletak pada folder application/config/config.php.
 4. Daftar akun untuk mendapatkan API KEY nya di https://rajaongkir.com/.
 5. Setelah mendaftar dan mendapatkan API KEY, silahkan masukan API KEY anda pada file  application/controllers/page.php.
-4. Akses Aplikasi via browser.
+6. Akses Aplikasi via browser.
 
 ***************************************
 Aplikasi ini dibuat dengan menggunakan:
