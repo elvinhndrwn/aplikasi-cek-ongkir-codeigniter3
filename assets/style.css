@@ -1,0 +1,249 @@
+/* Utility */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    background-color: salmon;
+    color: white;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+    text-transform: uppercase;
+
+}
+
+.navbar-brand {
+    font-family: 'Bangers', cursive;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-top: 20px;
+    transform: rotate(-5deg);
+    color: salmon !important;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url('assets/img/3999798.jpg');
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
+
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron .display-4 {
+    margin-top: 400px;
+    font-size: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 600;
+    color: salmon;
+}
+
+/* Section cek ongkir */
+section#cek-ongkir {
+    height: 350px;
+}
+
+section#cek-ongkir input {
+    border-radius: 40px;
+}
+
+section#cek-ongkir .input-group-text {
+    border-radius: 40px;
+}
+
+h3.title-section {
+    color: black;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3.title-section span {
+    color: salmon;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.img-moto {
+    width: 200px;
+    position: absolute;
+    margin-left: -200;
+    opacity: 0.3 !important;
+}
+
+.img-moto2 {
+    width: 300px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 200px;
+    opacity: 0.3 !important;
+}
+
+/* Ekspedisi */
+section#ekspedisi {
+    height: 200px;
+}
+
+.ekspedisi {
+    height: 600px;
+}
+
+.ekspedisi img {
+    width: 50px;
+    height: 50px;
+}
+
+/* section about */
+section#about img#img-startup {
+    width: 300px;
+    height: 200px;
+}
+
+section#about .text-about {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+section#about .img-about img {
+    width: 50px;
+}
+
+section#contact {
+    height: 60px;
+    background-color: skyblue;
+    margin-top: 30px;
+}
+
+section#contact h2{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* DEKSTOP */
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-family: 'Bangers', cursive;
+        font-size: 32px;
+        margin-left: 70px;
+        margin-top: 20px;
+        transform: rotate(-8deg);
+    }
+
+    .nav-link {
+        margin-right: 30px;
+    }
+
+
+    /* Animasi garis bawah navbar */
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid salmon;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        background-image: url('/assets/img/3999798.jpg');
+        background-size: cover;
+        height: 640px;
+    }
+
+    .jumbotron .container {
+        z-index: 1;
+        position: relative;
+    }
+
+    .jumbotron .display-4 {
+        margin-top: 250px;
+        margin-left: 500px;
+        font-size: 50px;
+    }
+
+    .img-moto {
+        width: 300px;
+        position: absolute;
+        margin-left: 30px;
+        opacity: 0.3 !important;
+    }
+
+    .img-moto2 {
+        width: 300px;
+        position: absolute;
+        margin-left: 1000px;
+        margin-top: 200px;
+        opacity: 0.3 !important;
+    }
+
+    /* Section cek ongkir */
+    section#cek-ongkir {
+        height: 600px;
+    }
+
+    h3.title-section {
+        color: black;
+        font-size: 50px;
+        font-weight: 200;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    h3.title-section span {
+        color: salmon;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    /* Ekspedisi */
+    section#ekspedisi {
+        height: 350px;
+    }
+
+    .ekspedisi {
+        height: 600px;
+    }
+
+    .ekspedisi img {
+        width: 150px;
+        height: 100px;
+    }
+
+    /* section about */
+    section#about img#img-startup {
+        width: 500px;
+        height: 350px;
+    }
+
+    section#about .img-about img {
+        width: 100px;
+    }
+
+    section#contact {
+        margin-top: 40px;
+        height: 100px;
+        background-color: skyblue !important;
+    }
+
+    section#contact h2{
+        margin-top: 35px;
+        font-size: 19px;
+    }
+
+
+}
