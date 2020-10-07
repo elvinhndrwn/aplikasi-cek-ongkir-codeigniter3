@@ -47,7 +47,7 @@ class Page extends CI_Controller {
 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 			CURLOPT_CUSTOMREQUEST => "GET",
 			CURLOPT_HTTPHEADER => array(
-				"key: d7f6e775e1215786f332ce813f540a1e"
+				"key: isikan dengan API KEY Anda"
 			),
 		));
 
@@ -77,7 +77,7 @@ class Page extends CI_Controller {
 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 			CURLOPT_CUSTOMREQUEST => "GET",
 			CURLOPT_HTTPHEADER => array(
-				"key: d7f6e775e1215786f332ce813f540a1e"
+				"key: isikan dengan API KEY Anda"
 			),
 		));
 
@@ -109,7 +109,7 @@ class Page extends CI_Controller {
 			CURLOPT_POSTFIELDS => "origin=".$city."&destination=".$city_to."&weight=".$berat."&courier=" . $kurir,
 			CURLOPT_HTTPHEADER => array(
 				"content-type: application/x-www-form-urlencoded",
-				"key: d7f6e775e1215786f332ce813f540a1e"
+				"key: isikan dengan API KEY Anda"
 			),
 		));
 
